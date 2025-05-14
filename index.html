@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="./assest/css/style.css" />
+</head>
+<body class="page contact">
+    <header class="topbar pc-toptitle">
+      <h1>NTWIST</h1>
+        <h3 class="">Contact Us</h3>
+      <p class="">Technical Assessment</p>
+    </header>
+
+    <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+        <h2>NTWIST</h2>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+        <button class="menu-close hidden" id="menuClose">✕</button>
+    </div>
+
+    <nav class="sidebar-links" id="sidebarLinks">
+        <a href="index.html" class="nav-link">Contact</a>
+        <a href="sort.html" class="nav-link">List Sort</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+    </nav>
+    </aside>
+
+
+  <main class="content">
+    <!-- <h1>Contact Us</h1> -->
+            <br/>
+       <br/>
+       <br/>
+
+    <h1></h1>
+    <form id="contactForm"> 
+        
+      <label class="">Name <input type="text" name="name" required placeholder="Enter your name"/></label>
+      <label>Email <input type="email" name="email" required placeholder="Enter your email"/></label>
+      <label>Message <textarea name="message" required placeholder="Enter your message"></textarea></label>
+      <div class="star-rating">
+          <p>Rate Us:</p>
+          <div class="stars">
+              <input type="radio" name="rating" id="star5" value="5" /><label
+              for="star5"
+              >&#9733;</label
+              >
+              <input type="radio" name="rating" id="star4" value="4" /><label
+              for="star4"
+              >&#9733;</label
+              >
+              <input type="radio" name="rating" id="star3" value="3" /><label
+              for="star3"
+              >&#9733;</label
+              >
+              <input type="radio" name="rating" id="star2" value="2" /><label
+              for="star2"
+              >&#9733;</label
+              >
+              <input type="radio" name="rating" id="star1" value="1" /><label
+              for="star1"
+              >&#9733;</label
+              >
+          </div>
+      </div>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <div id="confirmation" class="hidden confirmation-box">
+        <div class="checkmark">&#10004;</div>
+        <p id="timeMessage"></p>
+        <button id="newFormBtn" class="btn">Fill Another Form</button>
+    </div>
+
+  </main>
+<script src="./assest/js/navToggle.js"></script>
+
+  <script src="./assest/js/index.js"></script>
+</body>
+</html>
