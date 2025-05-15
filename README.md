@@ -24,7 +24,7 @@ or another way
 2. Time spent calculation
     - The timer starts when the form is focused.
 3. Personalized confirmation message
-    - After the successful submition the confirmation message shows with the user name and text.
+    - After the successful submission the confirmation message shows with the user name and text.
 4. Toggle menu for mobile devices
 5. A-Z sorting
 6. Z-A sorting
