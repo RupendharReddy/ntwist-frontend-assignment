@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sortable List</title>
+    <link rel="stylesheet" href="./assest/css/style.css" />
+  </head>
+  <body class="page sort">
+    <header class="topbar">
+      <h1>NTWIST</h1>
+      <h3 class="pc-toptitle">List Sorting</h3>
+      <p class="pc-toptitle">Technical Assessment</p>
+      <button class="menu-toggle mobile-menu" id="menuToggle">☰</button>
+      <button class="menu-close mobile-menu hidden" id="menuClose">✕</button>
+    </header>
+    <aside class="sidebar" id="sidebar">
+      <nav class="sidebar-links" id="sidebarLinks">
+        <a href="index.html" class="nav-link">CONTACT</a>
+        <a href="sort.html" class="nav-link active">SORTING</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+      </nav>
+    </aside>
+    <main class="content">
+      <div class="list-container">
+        <div class="list">
+          <h2>A - Z sorting</h2>
+          <ul id="nameList">
+            <li>Zara</li>
+            <li>Adam</li>
+            <li>Monica</li>
+            <li>Brian</li>
+          </ul>
+          <button onclick="sortList()" class="btn">Sort A-Z</button>
+        </div>
+        <div class="list">
+          <h2>Z - A sorting</h2>
+          <ul id="nameListReverse">
+            <li>Zara</li>
+            <li>Adam</li>
+            <li>Monica</li>
+            <li>Brian</li>
+          </ul>
+          <button onclick="sortListReverse()" class="btn">Sort Z-A</button>
+        </div>
+      </div>
+    </main>
+    <script src="./assest/js/navToggle.js"></script>
+    <script src="./assest/js/sort.js"></script>
+  </body>
+</html>
