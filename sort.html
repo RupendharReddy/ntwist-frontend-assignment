@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assest/css/style.css" />
   </head>
   <body class="page sort">
+    <!-- Top navigation bar with logo, title, and menu toggles -->
     <header class="topbar">
       <h1>NTWIST</h1>
       <h3 class="pc-toptitle">List Sorting</h3>
@@ -14,15 +15,18 @@
       <button class="menu-toggle mobile-menu" id="menuToggle">☰</button>
       <button class="menu-close mobile-menu hidden" id="menuClose">✕</button>
     </header>
+    <!-- Navigation sidebar with links to other pages only for larger screens -->
     <aside class="sidebar" id="sidebar">
       <nav class="sidebar-links" id="sidebarLinks">
         <a href="index.html" class="nav-link">CONTACT</a>
         <a href="sort.html" class="nav-link active">SORTING</a>
-        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="faq.html" class="nav-link">F-A-Q</a>
       </nav>
     </aside>
+    
     <main class="content">
       <div class="list-container">
+        <!-- List A-Z sorting container -->
         <div class="list">
           <h2>A - Z sorting</h2>
           <ul id="nameList">
@@ -33,6 +37,7 @@
           </ul>
           <button onclick="sortList()" class="btn">Sort A-Z</button>
         </div>
+        <!-- List Z-A sorting container -->
         <div class="list">
           <h2>Z - A sorting</h2>
           <ul id="nameListReverse">
@@ -49,3 +54,4 @@
     <script src="./assest/js/sort.js"></script>
   </body>
 </html>
+

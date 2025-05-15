@@ -9,6 +9,8 @@
 </head>
 
 <body class="page contact">
+
+  <!-- Top navigation bar with logo, title, and menu toggles -->
   <header class="topbar">
     <h1>NTWIST</h1>
     <h3 class="pc-toptitle">Contact Us</h3>
@@ -17,16 +19,18 @@
     <button class="menu-close mobile-menu hidden" id="menuClose">✕</button>
   </header>
 
+  <!-- Navigation sidebar with links to other pages only for larger screens -->
   <aside class="sidebar" id="sidebar">
     <nav class="sidebar-links" id="sidebarLinks">
       <a href="index.html" class="nav-link active">CONTACT</a>
       <a href="sort.html" class="nav-link">SORTING</a>
-      <a href="faq.html" class="nav-link">FAQ</a>
+      <a href="faq.html" class="nav-link">F-A-Q</a>
     </nav>
   </aside>
 
+  <!-- Main content area with form and confirmation message -->
   <main class="content">
-    <h1></h1>
+    <!-- Form with input fields for first name, last name, email, and message -->
     <form id="contactForm">
       <div class="name-div">
         <label class="name">First Name
@@ -41,6 +45,7 @@
       <label>Message
         <textarea name="message" required placeholder="Enter your message"></textarea>
       </label>
+      <!-- Star rating input field -->
       <div class="star-rating">
         <p>Rate Us:</p>
         <div class="stars">
@@ -53,15 +58,15 @@
       </div>
       <button type="submit" class="btn">Send</button>
     </form>
+    <!-- Confirmation message and button to fill another form -->
     <div id="confirmation" class="hidden confirmation-box">
       <div class="checkmark">&#10004;</div>
       <p id="timeMessage"></p>
       <button id="newFormBtn" class="btn">Fill Another Form</button>
     </div>
   </main>
-  <script></script>
+  <!-- Scripts for navigation toggle and form submission -->
   <script src="./assest/js/navToggle.js"></script>
-
   <script src="./assest/js/index.js"></script>
 </body>
 
